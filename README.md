@@ -1,8 +1,32 @@
-# React + Vite
+# Contact Manager Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **Contact Manager App** built using **React**, **Tailwind CSS**, and **Firebase Firestore** to manage contacts in real-time.
 
-Currently, two official plugins are available:
+## Features
+- **React**: Utilizes `useState` and `useEffect` for efficient state management and side-effects.
+- **Firebase Firestore**: Real-time data storage with `addDoc`, `updateDoc`, `deleteDoc`, and `onSnapshot` for live updates.
+- **Formik**: Simplifies form handling and validation for adding and updating contacts.
+- **Tailwind CSS**: Provides responsive and fast UI styling using utility-first CSS.
+- **Vite**: Fast build tool with HMR (Hot Module Replacement) for a smooth development experience.
+- **Toastify**: For non-blocking notifications and feedback during CRUD operations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+1. Clone the repository
+2. Run `npm install` to install dependencies
+3. Configure Firebase in `config/firebase.js`
+4. Run `npm start` to start the development server
+
+## Tech Stack
+- **React** (Hooks)
+- **Firebase Firestore**
+- **Tailwind CSS**
+- **Formik**
+- **Vite**
+- **Toastify**
+
+### Live Demo
+Check out the live version https://lnkd.in/gpMc4hTT
+
+---
+
+Feel free to contribute, raise issues, or drop feedback!
